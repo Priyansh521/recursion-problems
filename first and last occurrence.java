@@ -21,6 +21,8 @@ public class FirstAndLastOccurence {
        Scanner sc = new Scanner(System.in);
         String x = sc.next();
         int idx = 0;
-        count(x, idx, 'e');
+        System.out.println("tell me for which element you want to find the first and last occurrence");
+        char element = sc.next().charAt(0);
+        count(x, idx, element);
     }
 }
