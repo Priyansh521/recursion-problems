@@ -1,7 +1,7 @@
 //we have to move a specified multi occurring element to the end
 public class MoveAnElement {
     public static void move(String x, int count, int idx,  String newStr){
-        if (idx == x.length()-1){
+        if (idx == x.length()){
           // for loop to add x at the end of the new str
             for (int i = 0; i< count; i++){
                 newStr += 'x';
